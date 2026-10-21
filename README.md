@@ -1,11 +1,29 @@
-![Gelo — building useful web experiences.](assets/profile-banner.svg)
+# Gelo
 
-**TypeScript · React · Next.js · Supabase**
+I build web apps for public data, music, and everyday tools.
 
-<a href="https://github.com/eloooong/civica-web"><picture><source media="(max-width: 600px)" srcset="assets/civica-card-mobile.svg"><img src="assets/civica-card.svg" alt="Civica — explore Philippine public data. Next.js and TypeScript." width="960"></picture></a>
+TypeScript · React · Next.js · Supabase
 
-<a href="https://github.com/eloooong/spoti"><picture><source media="(max-width: 600px)" srcset="assets/spoti-card-mobile.svg"><img src="assets/spoti-card.svg" alt="SpotiStats — your listening, in focus. React and Express." width="960"></picture></a>
+## Projects
 
-<a href="https://github.com/eloooong/rentify-app"><picture><source media="(max-width: 600px)" srcset="assets/rentify-card-mobile.svg"><img src="assets/rentify-card.svg" alt="Rentify — peer-to-peer gadget rentals. Next.js and Supabase. Early development." width="960"></picture></a>
+### <img src="https://raw.githubusercontent.com/eloooong/civica-web/2c8f5f18511e3cea0394373a2e043b2aca62b835/app/icon.png" alt="" width="28" height="28"> [Civica](https://github.com/eloooong/civica-web)
 
-[Try Civica ↗](https://civica-web-two.vercel.app) · [All repositories](https://github.com/eloooong?tab=repositories) · [Email](mailto:angelobatara2002@gmail.com)
+Explore Philippine budgets, legislation, and public datasets.
+
+[Live site](https://civica-web-two.vercel.app) · [Source](https://github.com/eloooong/civica-web)
+
+### <img src="https://raw.githubusercontent.com/eloooong/spoti/653191acb205fff7dc9d665c6f992778ad5957d3/client/public/brand/spotistats-symbol.svg" alt="" width="28" height="28"> [SpotiStats](https://github.com/eloooong/spoti)
+
+A personal Spotify dashboard for your favorite artists, tracks, and listening habits.
+
+[Live site](https://spoti-neon.vercel.app) · [Source](https://github.com/eloooong/spoti)
+
+### [Rentify](https://github.com/eloooong/rentify-app)
+
+A peer-to-peer gadget rental marketplace. In development.
+
+[Source](https://github.com/eloooong/rentify-app)
+
+---
+
+[Email](mailto:angelobatara2002@gmail.com) · [All repositories](https://github.com/eloooong?tab=repositories)
