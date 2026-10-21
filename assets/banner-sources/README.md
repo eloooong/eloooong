@@ -1,5 +1,13 @@
 # Profile banners
 
+The active design is in `v3/`, with matching `*-v3.png` exports in `assets/`. It uses one charcoal surface (`#161B22`), one border color (`#30363D`), off-white text (`#F0F6FC`), and Segoe UI throughout. Separate mobile layouts keep text and logos readable below 600px. The topic list has been removed.
+
+Technology logos use the original SVG paths from [Simple Icons](https://github.com/simple-icons/simple-icons/tree/develop/icons): TypeScript, React, Next.js, Supabase, Tailwind CSS, and Express. TypeScript uses its blue tile with white lettering; React, Supabase, and Tailwind CSS use brand colors; Next.js and Express use reversed artwork. Every banner's alt text names its technologies.
+
+The active Civica banner uses the project's existing `public/typologo-light.png` white wordmark from the same revision cited below. The SpotiStats approved logo retains its green symbol and off-white outlined lettering. Rentify retains a text wordmark. All active SVGs contain their complete artwork, and the PNG exports are rendered at twice the design dimensions.
+
+The earlier banner sources below are retained for reference.
+
 These SVGs are the editable sources for the desktop and mobile PNG banners in `assets/`. Each PNG is exported at twice the SVG dimensions for sharp display on GitHub. The README selects the mobile versions below 600px.
 
 The Civica wordmark is reused unchanged from `eloooong/civica-web`, revision `2c8f5f18511e3cea0394373a2e043b2aca62b835`, `public/typologo.png`. The image is embedded in the source SVG.
