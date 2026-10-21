@@ -13,7 +13,7 @@
 
 [Open SpotiStats](https://spoti-neon.vercel.app) · [Source](https://github.com/eloooong/spoti)
 
-<a href="https://github.com/eloooong/rentify-app"><picture><source media="(max-width: 600px)" srcset="assets/rentify-card-mobile-v3.png"><img src="assets/rentify-card-v3.png" alt="Rentify — peer-to-peer gadget rentals. Built with Next.js, TypeScript, and Supabase. In development." width="1280"></picture></a>
+<a href="https://github.com/eloooong/rentify-app"><picture><source media="(max-width: 600px)" srcset="assets/rentify-card-mobile-v4.png"><img src="assets/rentify-card-v4.png" alt="Rentify — peer-to-peer gadget rentals. Built with Next.js, TypeScript, and Supabase. In development." width="1280"></picture></a>
 
 [Source](https://github.com/eloooong/rentify-app) · In development
 
