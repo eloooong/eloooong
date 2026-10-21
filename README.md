@@ -1,28 +1,21 @@
-# Gelo
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.png">
+  <img src="assets/profile-banner.png" alt="Gelo. Building useful web experiences with TypeScript, React, Next.js, and Supabase." width="1280">
+</picture>
 
-I build web apps for public data, music, and everyday tools.
+## Selected projects
 
-TypeScript · React · Next.js · Supabase
+<a href="https://github.com/eloooong/civica-web"><picture><source media="(max-width: 600px)" srcset="assets/civica-card-mobile.png"><img src="assets/civica-card.png" alt="Civica — explore Philippine budgets, legislation, and public datasets. Built with Next.js and TypeScript." width="1280"></picture></a>
 
-## Projects
+[Open Civica](https://civica-web-two.vercel.app) · [Source](https://github.com/eloooong/civica-web)
 
-### <img src="https://raw.githubusercontent.com/eloooong/civica-web/2c8f5f18511e3cea0394373a2e043b2aca62b835/app/icon.png" alt="" width="28" height="28"> [Civica](https://github.com/eloooong/civica-web)
+<a href="https://github.com/eloooong/spoti"><picture><source media="(max-width: 600px)" srcset="assets/spoti-card-mobile.png"><img src="assets/spoti-card.png" alt="SpotiStats — a personal Spotify listening dashboard. Built with React, TypeScript, and Express." width="1280"></picture></a>
 
-Explore Philippine budgets, legislation, and public datasets.
+[Open SpotiStats](https://spoti-neon.vercel.app) · [Source](https://github.com/eloooong/spoti)
 
-[Live site](https://civica-web-two.vercel.app) · [Source](https://github.com/eloooong/civica-web)
+<a href="https://github.com/eloooong/rentify-app"><picture><source media="(max-width: 600px)" srcset="assets/rentify-card-mobile.png"><img src="assets/rentify-card.png" alt="Rentify — a peer-to-peer gadget rental marketplace. Built with Next.js and Supabase. In development." width="1280"></picture></a>
 
-### <img src="https://raw.githubusercontent.com/eloooong/spoti/653191acb205fff7dc9d665c6f992778ad5957d3/client/public/brand/spotistats-symbol.svg" alt="" width="28" height="28"> [SpotiStats](https://github.com/eloooong/spoti)
-
-A personal Spotify dashboard for your favorite artists, tracks, and listening habits.
-
-[Live site](https://spoti-neon.vercel.app) · [Source](https://github.com/eloooong/spoti)
-
-### [Rentify](https://github.com/eloooong/rentify-app)
-
-A peer-to-peer gadget rental marketplace. In development.
-
-[Source](https://github.com/eloooong/rentify-app)
+[Source](https://github.com/eloooong/rentify-app) · In development
 
 ---
 
