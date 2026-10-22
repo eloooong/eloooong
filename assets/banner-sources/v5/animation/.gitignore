@@ -1,0 +1,6 @@
+/target/
+/frames/
+*.mp4
+*.gif
+*-strip.png
+*-frames/

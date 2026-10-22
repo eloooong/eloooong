@@ -1,6 +1,18 @@
 # Profile banners
 
-## Current project banners
+## Current project banners (v5)
+
+The profile uses compact animated banners from `assets/project-banners/`. Desktop artwork is 1280 × 252 with a 48 px action bar; mobile artwork is 640 × 334 with a 56 px action bar. Hero GIFs loop silently for six seconds at 20 fps. Text, logos, and technology labels stay still.
+
+Each banner is assembled from a linked hero image and linked action-strip images. This keeps the live-demo and source-code actions separately clickable in GitHub's sanitized README markup. Rentify has a source-code action only and remains labeled in development. Artboards have opaque dark backgrounds through every corner.
+
+`<picture>` selects mobile assets and still PNGs for reduced-motion preferences. GitHub may also apply its own animated-image autoplay settings. The profile retains descriptive alternative text and direct link destinations.
+
+Editable SVGs are in `v5/`; `v5/animation/` contains the Rust/fframes renderer, locked dependencies, and static image layers. Civica animates budget bars, SpotiStats rotates a record and pulses a waveform, Keep pulses a lock, and Rentify closes its camera aperture once per loop. These are conceptual product illustrations, not live data.
+
+The previous logo provenance below still applies. The personal Gelo header is unchanged.
+
+## Previous illustrated banners (v4)
 
 The profile uses the four project banners in `v4/`, with matching `*-banner-v4.png` and `*-banner-mobile-v4.png` exports in `assets/`. Desktop artwork is 1280 × 420; the mobile layout is 640 × 580. PNGs are rendered at twice those dimensions.
 
