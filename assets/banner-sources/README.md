@@ -1,5 +1,19 @@
 # Profile banners
 
+## Current project banners
+
+The profile uses the four project banners in `v4/`, with matching `*-banner-v4.png` and `*-banner-mobile-v4.png` exports in `assets/`. Desktop artwork is 1280 × 420; the mobile layout is 640 × 580. PNGs are rendered at twice those dimensions.
+
+Keep's desktop SVG is an exact copy of the banner from `eloooong/keep`, revision `19f9a11`, `docs/images/keep-banner.svg`. Its mobile version rearranges the same wordmark, copy, and credential illustration for narrow screens.
+
+Civica, SpotiStats, and Rentify follow that banner's charcoal palette, layout, and framing, with their existing logos and illustrations based on their products: public records, listening patterns, and shared gadgets. The illustrations are conceptual, not live data. Rentify remains labeled in development.
+
+Existing logo artwork is preserved: Civica's embedded white wordmark, SpotiStats' vector wordmark, and Rentify's supplied orange symbol. Original logo provenance is retained in the historical notes below. Project images have descriptive alt text and the profile selects mobile artwork below 600px.
+
+The personal Gelo header is unchanged.
+
+## Earlier designs
+
 Rentify now uses `v3/rentify-card-v4.svg` and `v3/rentify-card-mobile-v4.svg`, with matching PNG exports. Both include the user's supplied orange logo from `rentify-logo.png` beside the name. The original transparent PNG is preserved; its transparent outer padding is omitted by the SVG viewport without changing the artwork.
 
 Keep uses `v3/keep-card-v3.svg` and `v3/keep-card-mobile-v3.svg`, with matching PNG exports. Its existing white wordmark is reused from `eloooong/keep`, revision `19f9a11`, `public/brand/keep-horizontal-dark.svg`. Both layouts follow the active charcoal card style and reuse the Next.js, TypeScript, and Supabase icons. PNGs are rendered at twice the SVG dimensions.
