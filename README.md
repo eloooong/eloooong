@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile-v3.png">
-  <img src="assets/profile-banner-v3.png" alt="Gelo. I build web applications. TypeScript, React, Next.js, and Supabase." width="1280">
+  <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.png?v=tech-stack-1">
+  <img src="assets/profile-banner.png?v=tech-stack-1" alt="Gelo. I build web applications. TypeScript, React, Next.js, and Supabase." width="1280">
 </picture>
 
 ## Selected projects

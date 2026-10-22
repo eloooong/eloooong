@@ -1,5 +1,9 @@
 # Profile banners
 
+## Personal header
+
+The personal header pairs Gelo’s name and introduction with labeled TypeScript, React, Next.js, and Supabase badges. Desktop artwork is 1280 × 338; mobile artwork is 640 × 432, with the stack below the introduction. Both PNGs are exported at twice their design dimensions with opaque dark backgrounds. Editable SVGs are in `profile/`; the profile selects the mobile PNG below 600px. The Supabase badge uses the official two-tone symbol described below.
+
 ## Current project banners (v5)
 
 The profile uses compact animated banners from `assets/project-banners/`. Desktop artwork is 1280 × 252 with a 48 px action bar; mobile artwork is 640 × 334 with a 56 px action bar. Hero GIFs loop silently for six seconds at 20 fps. Text, logos, and technology labels stay still.
@@ -12,7 +16,7 @@ Editable SVGs are in `v5/`; `v5/animation/` contains the Rust/fframes renderer, 
 
 The current Supabase badges use the official two-tone symbol from `supabase/supabase`, `packages/common/assets/images/supabase-logo-icon.svg`, with consistent label padding.
 
-The previous logo provenance below still applies. The personal Gelo header is unchanged.
+The previous project logo provenance below still applies.
 
 ## Previous illustrated banners (v4)
 
