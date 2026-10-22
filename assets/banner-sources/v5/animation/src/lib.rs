@@ -3,6 +3,7 @@ use fframes::{
     animation::{Easing, KeyFramesAnimation}, include_media_dir,
 };
 
+// Embedded layers include the official Supabase symbol and padded labels.
 include_media_dir!(pub struct SpotistatsBannerMedia, "media");
 
 mod other;

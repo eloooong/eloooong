@@ -10,6 +10,8 @@ Each banner is assembled from a linked hero image and linked action-strip images
 
 Editable SVGs are in `v5/`; `v5/animation/` contains the Rust/fframes renderer, locked dependencies, and static image layers. Civica animates budget bars, SpotiStats rotates a record and pulses a waveform, Keep pulses a lock, and Rentify closes its camera aperture once per loop. These are conceptual product illustrations, not live data.
 
+The current Supabase badges use the official two-tone symbol from `supabase/supabase`, `packages/common/assets/images/supabase-logo-icon.svg`, with consistent label padding.
+
 The previous logo provenance below still applies. The personal Gelo header is unchanged.
 
 ## Previous illustrated banners (v4)
