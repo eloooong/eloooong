@@ -2,6 +2,8 @@
 
 Rentify now uses `v3/rentify-card-v4.svg` and `v3/rentify-card-mobile-v4.svg`, with matching PNG exports. Both include the user's supplied orange logo from `rentify-logo.png` beside the name. The original transparent PNG is preserved; its transparent outer padding is omitted by the SVG viewport without changing the artwork.
 
+Keep uses `v3/keep-card-v3.svg` and `v3/keep-card-mobile-v3.svg`, with matching PNG exports. Its existing white wordmark is reused from `eloooong/keep`, revision `19f9a11`, `public/brand/keep-horizontal-dark.svg`. Both layouts follow the active charcoal card style and reuse the Next.js, TypeScript, and Supabase icons. PNGs are rendered at twice the SVG dimensions.
+
 The active design is in `v3/`, with matching `*-v3.png` exports in `assets/`. It uses one charcoal surface (`#161B22`), one border color (`#30363D`), off-white text (`#F0F6FC`), and Segoe UI throughout. Separate mobile layouts keep text and logos readable below 600px. The topic list has been removed.
 
 Technology logos use the original SVG paths from [Simple Icons](https://github.com/simple-icons/simple-icons/tree/develop/icons): TypeScript, React, Next.js, Supabase, Tailwind CSS, and Express. TypeScript uses its blue tile with white lettering; React, Supabase, and Tailwind CSS use brand colors; Next.js and Express use reversed artwork. Every banner's alt text names its technologies.

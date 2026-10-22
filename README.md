@@ -13,6 +13,10 @@
 
 [Open SpotiStats](https://spoti-neon.vercel.app) · [Source](https://github.com/eloooong/spoti)
 
+<a href="https://github.com/eloooong/keep"><picture><source media="(max-width: 600px)" srcset="assets/keep-card-mobile-v3.png"><img src="assets/keep-card-v3.png" alt="Keep — your keys, one place. An API key vault built with Next.js, TypeScript, and Supabase." width="1280"></picture></a>
+
+[Open Keep](https://keep-umber-eta.vercel.app) · [Source](https://github.com/eloooong/keep)
+
 <a href="https://github.com/eloooong/rentify-app"><picture><source media="(max-width: 600px)" srcset="assets/rentify-card-mobile-v4.png"><img src="assets/rentify-card-v4.png" alt="Rentify — peer-to-peer gadget rentals. Built with Next.js, TypeScript, and Supabase. In development." width="1280"></picture></a>
 
 [Source](https://github.com/eloooong/rentify-app) · In development
