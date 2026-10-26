@@ -4,14 +4,14 @@ use fframes_skia_renderer::{
     SkiaFFramesRenderer, SkiaPipelineConcurrencyPolicy, SkiaPipelineConfig,
     vulkan::SkiaVulkanCtx,
 };
-use spotistats_banner::{Project, SpotistatsBannerMedia, SpotistatsBannerVideo};
+use spotistats_banner::{ProfileBannerVideo, Project, SpotistatsBannerMedia, SpotistatsBannerVideo};
 use std::process::ExitCode;
 
 #[derive(Debug, clap::Args)]
 struct BannerArgs {
     #[arg(long, global = true)]
     mobile: bool,
-    #[arg(long, global = true, default_value = "spoti", value_parser = ["spoti", "civica", "keep", "rentify"])]
+    #[arg(long, global = true, default_value = "spoti", value_parser = ["spoti", "civica", "keep", "rentify", "profile"])]
     project: String,
 }
 
@@ -24,11 +24,14 @@ fn main() -> ExitCode {
         "rentify" => Project::Rentify,
         _ => Project::Spoti,
     };
-    let (width, height) = if args.app.mobile { (640, 334) } else { (1280, 252) };
+    let is_profile = args.app.project == "profile";
+    let (width, height) = if is_profile {
+        if args.app.mobile { (640, 400) } else { (1280, 338) }
+    } else if args.app.mobile { (640, 334) } else { (1280, 252) };
     let gpu = SkiaVulkanCtx::new(width, height).expect("GPU context");
     macro_rules! run_banner {
-        ($mobile:literal) => {{
-            let video = SpotistatsBannerVideo::<$mobile>::new(&media, project);
+        ($video:expr) => {{
+            let video = $video;
             cli::new(
                 &video,
                 RenderOptions {
@@ -53,5 +56,9 @@ fn main() -> ExitCode {
             .run()
         }};
     }
-    if args.app.mobile { run_banner!(true) } else { run_banner!(false) }
+    if is_profile {
+        if args.app.mobile { run_banner!(ProfileBannerVideo::<true>::new(&media)) }
+        else { run_banner!(ProfileBannerVideo::<false>::new(&media)) }
+    } else if args.app.mobile { run_banner!(SpotistatsBannerVideo::<true>::new(&media, project)) }
+    else { run_banner!(SpotistatsBannerVideo::<false>::new(&media, project)) }
 }

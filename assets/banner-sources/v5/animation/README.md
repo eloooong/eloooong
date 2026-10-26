@@ -23,3 +23,9 @@ ffmpeg -i civica.mp4 -filter_complex "[0:v]split[a][b];[a]palettegen=max_colors=
 ```
 
 Keep action-strip images static and separate when embedding in the profile so each destination remains independently clickable. Source artwork, font rasterization, and original logo colors are retained from the approved profile design.
+
+## Personal header
+
+`--project profile` selects the personal header: desktop 1280 × 338, mobile 640 × 400. The sources in `../../profile/` omit the former introduction line. From the repository root, `python assets/banner-sources/profile/prepare.py` (requires `resvg-py` and Segoe UI fonts) regenerates the still PNGs and transparent name/badge layers embedded in `media/header_*.png`.
+
+The six-second, 20 fps loop keeps the name fixed, gently floats and highlights one badge at a time, and moves the background waves with a seamless sinusoidal cycle. Render with `cargo run --release -- --project profile render -o profile.mp4` (add `--mobile` for mobile), then use the GIF palette command above. Final GIFs live at `assets/profile-banner-animated.gif` and `assets/profile-banner-animated-mobile.gif`; matching static PNGs are selected for reduced motion.

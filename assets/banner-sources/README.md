@@ -2,7 +2,9 @@
 
 ## Personal header
 
-The personal header pairs Gelo’s name and introduction with labeled TypeScript, React, Next.js, and Supabase badges. Desktop artwork is 1280 × 338; mobile artwork is 640 × 432, with the stack below the introduction. Both PNGs are exported at twice their design dimensions with opaque dark backgrounds. Editable SVGs are in `profile/`; the profile selects the mobile PNG below 600px. The Supabase badge uses the official two-tone symbol described below.
+The personal header pairs Gelo’s name and handle with labeled TypeScript, React, Next.js, and Supabase badges. Desktop artwork is 1280 × 338; mobile artwork is 640 × 400, with the stack below the name. The introduction line has been removed. Both still PNGs are exported at twice their design dimensions with opaque dark backgrounds. Editable SVGs and `prepare.py` are in `profile/`; run `python assets/banner-sources/profile/prepare.py` from the repository root with `resvg-py` installed to regenerate the stills and transparent animation layers. Fonts resolve from the system (Segoe UI on Windows).
+
+The header GIFs loop silently for six seconds at 20 fps. One badge at a time gently rises 3 px with a soft brand-colored border, while background curves drift and the charcoal glow breathes. Name and handle stay fixed. `v5/animation/src/profile.rs` contains the fframes renderer (`--project profile`, optionally `--mobile`). The profile selects the mobile artwork below 600px and still PNGs for reduced-motion preferences. The Supabase badge uses the official two-tone symbol described below.
 
 ## Current project banners (v5)
 

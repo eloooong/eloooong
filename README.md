@@ -1,6 +1,8 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.png?v=tech-stack-1">
-  <img src="assets/profile-banner.png?v=tech-stack-1" alt="Gelo. I build web applications. TypeScript, React, Next.js, and Supabase." width="1280">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/profile-banner-mobile.png?v=animated-header-1">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner.png?v=animated-header-1">
+  <source media="(max-width: 600px)" srcset="assets/profile-banner-animated-mobile.gif?v=animated-header-1">
+  <img src="assets/profile-banner-animated.gif?v=animated-header-1" alt="Gelo. TypeScript, React, Next.js, and Supabase. Gently animated tech badges and flowing background." width="1280">
 </picture>
 
 ## Selected projects

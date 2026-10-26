@@ -7,6 +7,8 @@ use fframes::{
 include_media_dir!(pub struct SpotistatsBannerMedia, "media");
 
 mod other;
+mod profile;
+pub use profile::ProfileBannerVideo;
 
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub enum Project { Spoti, Civica, Keep, Rentify }
